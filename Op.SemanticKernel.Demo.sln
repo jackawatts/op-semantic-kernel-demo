@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Op.SemanticKernel.Demo.OpenAI", "src\Op.SemanticKernel.Demo.OpenAI\Op.SemanticKernel.Demo.OpenAI.csproj", "{919B64B8-7FB6-48B0-AF9B-6CFA58DC282B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Op.SemanticKernel.Demo.Azure", "src\Op.SemanticKernel.Demo.Azure\Op.SemanticKernel.Demo.Azure.csproj", "{6E167E1C-3495-4B2E-A609-4EF9D4CA8B6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Op.SemanticKernel.Demo.Examples", "src\Op.SemanticKernel.Demo.Examples\Op.SemanticKernel.Demo.Examples.csproj", "{F561D1A3-19F0-4A2A-8E64-0995D1A2AEFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{919B64B8-7FB6-48B0-AF9B-6CFA58DC282B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919B64B8-7FB6-48B0-AF9B-6CFA58DC282B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{919B64B8-7FB6-48B0-AF9B-6CFA58DC282B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{919B64B8-7FB6-48B0-AF9B-6CFA58DC282B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E167E1C-3495-4B2E-A609-4EF9D4CA8B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E167E1C-3495-4B2E-A609-4EF9D4CA8B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E167E1C-3495-4B2E-A609-4EF9D4CA8B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E167E1C-3495-4B2E-A609-4EF9D4CA8B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F561D1A3-19F0-4A2A-8E64-0995D1A2AEFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F561D1A3-19F0-4A2A-8E64-0995D1A2AEFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F561D1A3-19F0-4A2A-8E64-0995D1A2AEFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F561D1A3-19F0-4A2A-8E64-0995D1A2AEFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

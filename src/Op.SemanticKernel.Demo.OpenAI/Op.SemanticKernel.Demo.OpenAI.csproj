@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+      <UserSecretsId>6f1b3142-074a-4660-b76a-dac38c12ae34</UserSecretsId>
+  </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="7.0.4" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+      <PackageReference Include="Microsoft.SemanticKernel" Version="0.13.277.1-preview" />
+      <PackageReference Include="Microsoft.SemanticKernel.Connectors.Memory.Qdrant" Version="0.13.277.1-preview" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Op.SemanticKernel.Demo.Examples\Op.SemanticKernel.Demo.Examples.csproj" />
+    </ItemGroup>
+
+</Project>
