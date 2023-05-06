@@ -18,16 +18,16 @@ To use OpenAI
 2. go to: src/Op.SemanticKernel.Demo.Azure
 3. Add the user secrets:
 ```
-dotnet user-secrets set "ApiKey" "the_api_key_you_copied"
+dotnet user-secrets set "ApiKey" "The_api_key_you_copied"
 ```
 
-## Azure OpenAI
+## Using Azure OpenAI
 To use Azure OpenAI
 1. Deploy ChatGPT (gpt-35-turbo) and Ada (text-embedding-ada-002) as documented [here](https://learn.microsoft.com/en-au/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal#deploy-a-model) and copy the deployment names (the name you specified for each one)
 2. go to: src/Op.SemanticKernel.Demo.Azure
 3. Add the user secrets:
 ```
-dotnet user-secrets set "ApiKey" "key_copied_from_Keys_and_Endpoint"
+dotnet user-secrets set "ApiKey" "Key_copied_from_Keys_and_Endpoint"
 dotnet user-secrets set "Endpoint" "Endpoint_copied_from_Keys_and_Endpoint"
 dotnet user-secrets set "ChatDeploymentName" "Model_deployment_name_of_chat_model"
 dotnet user-secrets set "EmbeddingDeploymentName" "Model_deployment_name_of_embedding_model"
@@ -39,3 +39,7 @@ dotnet user-secrets set "EmbeddingDeploymentName" "Model_deployment_name_of_embe
 3. Profit!
 
 NOTE: On subsequent reruns you can comment out the BuildMemory line as it only needs to be run once to store the document in Qdrant.
+
+# Sample questions
+* who are you?
+* what project did you work on in 2022?
